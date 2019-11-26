@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    font-size:2.5em;
+    background-color: rgb(173, 84, 20);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+
+body{
+    background-image:url(fox.png);
+    background-repeat:no-repeat ;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+ a:visited
+ {
+     color: rgb(238, 116, 116);
+     text-decoration: none;
+ }
+ 
+ a:hover
+ {
+     color: rgb(75, 73, 73);
+     text-decoration: none;
+ }
+ a
+ {
+     color: white;
+     text-decoration: none;
+ }
+ p{font-size: 25px;}
+
+ nav ul {
+     list-style-type:none ;
+     padding: 0;
+     margin: 0;
+     background-color: rgb(80, 78, 78);
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+ nav ul li {
+     float: left;
+ }
+
+ nav ul li a{
+     display: block;
+     padding: 10px;
+     text-decoration: none;
+     font-family: sans-serif;
+ }
+
+ nav ul li a:hover{
+     background-color: rgb(161, 161, 161);
+ }
